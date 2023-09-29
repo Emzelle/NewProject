@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+  <title>Resume</title>
+</head>
+<body>
+  <h1>Emzelle Xylle D. Awal</h1>
+  <h2>About me</h2>
+  <p>I am Emzelle Xylle D. Awal I am currently taking Information 
+    Technology majoring in Web Designing in University of the Cordilleras
+    I have no experience in working but I am happy to learn the job I am
+    applying to.
+  </p>
+  <h2>Interests</h2>
+  <ul>
+    <li>Video Games</li>
+    <li>Learning Language</li>
+    <li>Web Designing</li>
+  </ul>
+  <h3>Skills</h3>
+  <ul>
+    <li>Python</li>
+  </ul>
+  <h4>Education</h4>
+  <ul>
+    <li>Elementary - Epiphany Learning Center</li>
+    <a href="https://eastercollege.ph/public/">
+      <li>Highschool - Easter College</li>
+    </a>
+    <!--Link-->
+    <a href="https://www.uc-bcf.edu.ph/">
+    <li>University of the Cordilleras</li></a>
+  </ul>
+</div>
+</body>
+</html>
