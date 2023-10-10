@@ -1,27 +1,24 @@
-h1{
+h1 {
   text-align: center;
 }
+
 .container {
-    background-color: rgb(255, 255, 255);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 0;
-    padding-right: 0;
-  }
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0;
+}
+
 .marker {
-    width: 200px;
-    height: 25px;
-    margin: 10px auto;
-  }
-.red{
-    background-color: rgb(255, 0, 0);
+  width: 200px;
+  height: 25px;
+  margin: 10px auto;
 }
-.green{
-  background-color: #00FF00);
+.red {
+  background: linear-gradient(180deg, rgb(122, 74, 14) 0%, r);
 }
-.blue{
-    background-color: rgb(0, 0, 255);
+.green {
+  background: linear-gradient(180deg, #55680D, #71F53E, #116C31);
 }
-.container{
-    background-color: rgb(0, 0, 0);
+
+.blue {
+  background-color: hsl(240, 100%, 50%);
 }
