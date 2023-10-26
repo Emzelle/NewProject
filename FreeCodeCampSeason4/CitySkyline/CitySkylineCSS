@@ -1,3 +1,9 @@
+:root{
+    --building-color1: #aa80ff;
+    --building-color2: #66cc99;
+    --building-color3: #cc6699;
+    --building-color4: #538cc6;
+}
 *{
     border: 1px solid black;
     box-sizing: border-box;
@@ -10,6 +16,9 @@ body{
 .background-buildings{
     width: 100%;
     height: 100%;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    display: flex;
 }
 .bb1{
     width: 10%;
@@ -19,18 +28,37 @@ body{
     display: flex;
 }
 .bb1a{
+    background-color: var(--building-color1);
     width: 70%;
     height: 10%;
 }
 .bb1b{
+    background-color: var(--building-color1);
     width: 80%;
     height: 10%;
 }
 .bb1c{
+    background-color: var(--building-color1);
     width: 90%;
     height: 10%;
 }
 .bb1d{
+    background-color: var(--building-color1);
     width: 100%;
     height: 70%;
+}
+.bb2{
+    background-color: var(--building-color2);
+    width: 10%;
+    height: 50%;
+}
+.bb3{
+    background-color: var(--building-color3);
+    width: 10%;
+    height: 55%;
+}
+.bb4{
+    background-color: var(--building-color4);
+    width: 11%;
+    height: 58%;
 }
